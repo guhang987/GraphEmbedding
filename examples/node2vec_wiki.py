@@ -49,5 +49,5 @@ if __name__ == "__main__":
     model.train(window_size = 5, iter = 3)
     embeddings=model.get_embeddings()
 
-    evaluate_embeddings(embeddings)
+    #evaluate_embeddings(embeddings)
     plot_embeddings(embeddings)
