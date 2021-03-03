@@ -48,6 +48,6 @@ if __name__ == "__main__":
                      p=0.25, q=4, workers=1, use_rejection_sampling=0)
     model.train(window_size = 5, iter = 3)
     embeddings=model.get_embeddings()
-
+    print(embeddings)
     #evaluate_embeddings(embeddings)
     plot_embeddings(embeddings)
